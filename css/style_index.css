@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Pixel_NES";
+    src: url("../font/Pixel_NES.otf") format("OpenType");
+    
+  }
+body{
+    user-select: none;
+}
+#blanc{
+    position: absolute;
+    color: white;
+    top: 75vh;
+    left: 31vw;
+}
+
+
+
+#bleu{
+    position: absolute;
+    color: rgba(0, 0, 255, 0.3333);
+    top: 75.5vh;
+    left: 31.3vw;
+}
+#rouge{
+    position: absolute;
+    color: rgba(255, 0, 0, 0.3333);
+    top: 74.3vh;
+    left: 30.9vw;
+}
+#vert{
+    position: absolute;
+    color: rgba(0, 255, 0, 0.3333);
+    top: 74.8vh;
+    left: 31.2vw;
+}
+#mega{
+    transform:scaleX(-1);
+    position: relative;
+    right: -40vw;
+    top: -207.7vw;
+    width: 5vw;
+    -webkit-transform:scaleX(-1);
+    -moz-transform:scaleX(-1);
+    -ms-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+}
+
+.loader{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: "Pixel_NES";
+    color: white;
+    display: flex;
+    justify-content: center;
+    visibility: visible;
+    opacity: 1;
+    z-index: 3;
+    /*transition: opacity 700ms ease-out, visibility 0ms linear 700ms ;
+    -webkit-transition: opacity 700ms ease-out, visibility 0ms linear 700ms ;
+    -moz-transition: opacity 700ms ease-out, visibility 0ms linear 700ms ;
+    -ms-transition: opacity 700ms ease-out, visibility 0ms linear 700ms ;
+    -o-transition: opacity 700ms ease-out, visibility 0ms linear 700ms ;*/
+}
+
+
+.isloading .loader{
+        visibility: visible;
+        opacity: 1;
+        z-index: 3;
+    
+}
+.loader p{
+    
+    text-align: center;
+    font-size: 7vh;
+}
+
+html,body{  
+ overflow:hidden;
+background-color: black;
+padding: 0px;
+} 
+body{
+    margin: 0px;
+}
+
+.loader > div{
+    
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#ville{
+    position: absolute;
+    top: -56.6vw;
+    width: 65vw;
+    z-index: 0;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+#im{
+    position: relative;
+    
+    width: 40vw;
+    z-index: 0;
+}
+#tour{
+    position: absolute;
+    top: -218.6vw;
+    left: 60vw;
+    width: 40vw;
+    z-index: 0;
+}
+.black{
+    color: white;
+    z-index: 1;
+    position: absolute;
+    font-family: "Pixel_NES";
+    text-align: center;
+    font-size: 7vh;
+    background-color: black;
+    width: 100vw;
+    height: 17.1vw;
+    bottom: 0;
+
+}
+#un{
+    position: relative;
+    top: 5vh;
+}
+
+#cv,#pf{
+    color: white;
+    font-family: "Pixel_NES";
+    left: -14vw;
+    position: relative;
+    margin-top: 5vw;
+    font-size: 3vw;
+    top: -2vw;
+    max-width: 35vw;
+    display: block;
+}
+#titre{
+    z-index: 2;
+    width: 40vw;
+    position: relative;
+    left: 7vw;
+    top: -23vw;
+    filter: blur(0.2px);
+    -webkit-filter: blur(0.2px);
+}
+#clic{
+    z-index: 2;
+    width: 40vw;
+    position: fixed;
+    right: -20vw;
+    bottom: 2vw;
+    color: white;
+    font-family: "Pixel_NES";
+    font-size: 1.45vw;
+    background-color: black;
+    padding-left: 2vw;
+    opacity: 0;
+}

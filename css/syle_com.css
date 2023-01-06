@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "Pixel_NES";
+    src: url("../font/Pixel_NES.otf") format("OpenType");
+    
+  }
+body{
+    user-select: none;
+}
+
+html,body{  
+ overflow:hidden;
+background-color: black;
+padding: 0px;
+} 
+body{
+    margin: 0px;
+}
+.fond{
+    position: fixed;
+    top: 7vw;
+    height: 95vh;
+    width: 100vw;
+    
+}
+.mid1{
+    display: flex;
+    justify-content: center;
+    visibility: visible;
+    position: relative;
+    top: 7vw;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+}
+.mid2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.h,.b{
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    visibility: visible;
+    text-decoration: none;
+}
+.b2{
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    visibility: visible;
+    text-decoration: none;
+    position: relative;
+    top: -2.5vw;
+}
+
+.titre{
+    position: absolute;
+    top: -8vw;
+    width: 55vw;
+}
+.trait{
+    position: absolute;
+    top: 7vw;
+    left: 55vw;
+    width: 55vw;
+}
+p{
+    color: white;
+    font-family: "Pixel_NES";
+    text-align: center;
+    font-size: 7vh;
+    margin-top: 1vh;
+    margin-bottom:2vh;
+}
+.text{
+    color: white;
+    font-family: "Pixel_NES";
+    text-align: center;
+    font-size: 1.4vw;
+    margin-top: 0.1vh;
+}
+.text2{
+    color: white;
+    font-family: "Pixel_NES";
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 1vh;
+}
+.fiche{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 45vw;
+    
+}
+.mid{
+    height: 7vw;
+}
+.mid2{
+    width: 30vw;
+}
+button{
+    background-color: #0072ff;
+    color: white;
+    font-family: "Pixel_NES";
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 0.1vh;
+    position: fixed;
+    right: 3vw;
+    top: 2vw;
+    cursor: pointer;
+    border: none;
+    z-index: 20;
+}
+.dl{
+    background-color: #0072ff;
+    color: white;
+    font-family: "Pixel_NES";
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 0.1vh;
+    position: absolute;
+    left: 42.2vw;
+    top: 44vw;
+    cursor: pointer;
+    height: 3vw;
+    border: none;
+    z-index: 20;
+}
+button:hover{
+    background-color: #00b6ff;
+    ;
+}
+.yt{
+    width: 3vw;
+    position: fixed;
+    bottom: 21.5vw;
+    left: 39vw;
+    z-index: 5;
+}
+.illu{
+    width: 5vw;
+}
+.illu2{
+    width: 2.5vw;
+    transform: rotate(0.25turn);
+    -webkit-transform: rotate(0.25turn);
+    -moz-transform: rotate(0.25turn);
+    -ms-transform: rotate(0.25turn);
+    -o-transform: rotate(0.25turn);
+    position: relative;
+    top: -2.5vw;
+}
+h1{
+    color: white;
+    font-family: "Pixel_NES";
+    text-align: center;
+    font-size: 10vh;
+    margin-top: 1vh;
+    margin-bottom:2vh;
+    position: fixed;
+    top: 3vw;
+    left: 37.5vw;
+}
+.trait1{
+    position: fixed;
+    top: 5.5vw;
+    right: -20vw;
+    width: 55vw;
+}
+.trait2{
+    position: fixed;
+    top: 5.5vw;
+    left: -20vw;
+    width: 55vw;
+}   
+.mida{
+    display: flex;
+    justify-content: center;
+    visibility: visible;
+    position: relative;
+    top: 7vw;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    top: 2vw;
+}
+.midb{
+    position: relative;
+    top: 10vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 30vw;
+    width: 63vw;
+    border: #440049 solid 10px;
+}

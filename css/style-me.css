@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Pixel_NES";
+    src: url("../font/Pixel_NES.otf") format("OpenType");
+    
+  }
+body{
+    user-select: none;
+}
+
+html,body{  
+ overflow:hidden;
+background-color: black;
+padding: 0px;
+} 
+body{
+    margin: 0px;
+}

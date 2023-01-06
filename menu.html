@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Adrien Chateau</title>
+  <link class="icone" rel="icon" type="image/gif/png" href="img\logocv.gif">
+  <link rel="stylesheet" href="css/style_me.css">
+  
+</head>
+<body>
+    <audio autoplay id="myaudio" loop>
+        <source  src="son\mega-man-2-nes-music-menu-screen.mp3" type="audio/mp3">
+      </audio>
+      <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.2;
+        function bip(){
+            var bip = new Audio("son/gameboy-startup-sound.mp3");
+            bip.volume = 0.2;
+            bip.play();
+            let intervalTime = 200;
+        let time = 0;
+
+        let clickInterval = setInterval(
+            function()
+            {
+                if(time > 1){
+                    clearInterval(clickInterval);
+                    window.location.href = 'competence.html';
+                }
+                time++;
+            }, intervalTime);
+        }
+        function bip2(){
+            var bip = new Audio("son/gameboy-startup-sound.mp3");
+            bip.volume = 0.2;
+            bip.play();
+            let intervalTime = 200;
+        let time = 0;
+
+        let clickInterval = setInterval(
+            function()
+            {
+                if(time > 1){
+                    clearInterval(clickInterval);
+                    window.location.href = 'formation.html';
+                }
+                time++;
+            }, intervalTime);
+        }
+        function bip3(){
+            var bip = new Audio("son/gameboy-startup-sound.mp3");
+            bip.volume = 0.2;
+            bip.play();
+            let intervalTime = 200;
+        let time = 0;
+
+        let clickInterval = setInterval(
+            function()
+            {
+                if(time > 1){
+                    clearInterval(clickInterval);
+                    window.location.href = 'loisir.html';
+                }
+                time++;
+            }, intervalTime);
+        }
+        function bip1(){
+            var bip = new Audio("son/gameboy-startup-sound.mp3");
+            bip.volume = 0.2;
+            bip.play();
+            let intervalTime = 200;
+        let time = 0;
+
+        let clickInterval = setInterval(
+            function()
+            {
+                if(time > 1){
+                    clearInterval(clickInterval);
+                    window.location.href = 'experience.html';
+                }
+                time++;
+            }, intervalTime);
+        }
+        function bip3(){
+            var bip = new Audio("son/gameboy-startup-sound.mp3");
+            bip.volume = 0.2;
+            bip.play();
+            let intervalTime = 200;
+        let time = 0;
+
+        let clickInterval = setInterval(
+            function()
+            {
+                if(time > 1){
+                    clearInterval(clickInterval);
+                    window.location.href = 'loisir.html';
+                }
+                time++;
+            }, intervalTime);
+        }
+        function bip4(){
+            var bip = new Audio("son/gameboy-startup-sound.mp3");
+            bip.volume = 0.2;
+            bip.play();
+            let intervalTime = 200;
+        let time = 0;
+
+        let clickInterval = setInterval(
+            function()
+            {
+                if(time > 1){
+                    clearInterval(clickInterval);
+                    window.location.href = 'contact.html';
+                }
+                time++;
+            }, intervalTime);
+        }
+        
+      </script>
+
+  
+    <img class="fond" src="img\fondme.gif" alt="" >
+    <div class="mid1">
+        <div class="mid2">
+            <div class="h">
+                <div class="fiche" onclick="bip()">
+                    <img class="r" src="img\r.png" alt="" >
+                    <img class="off" src="img\caseon.png" alt="" >
+                    <img class="on" src="img\caseoff.png" alt="" >
+                    <p>Competences</p>
+                </div>
+                
+                
+                <div class="fiche" onclick="bip1()">
+                    <img class="e" src="img\e.png" alt="" >
+                    <img class="off" src="img\caseon.png" alt="" >
+                    <img class="on" src="img\caseoff.png" alt="" >
+                    <p>Experiences</p>
+                </div>
+                
+            </div>
+            
+            <img class="cv" src="img\cvcase.png" alt="" onclick="bip4()">
+            <div class="b">
+                
+                <div class="fiche" onclick="bip2()">
+                    <img class="on" src="img\caseoff.png" alt="" >
+                    <img class="p" src="img\p.png" alt="" >
+                    <img class="off" src="img\caseon.png" alt="" >
+                    <p>Formations</p>
+                </div>
+               
+                <div class="fiche" onclick="bip3()">
+                    <img class="on" src="img\caseoff.png" alt="" >
+                    <img class="d" src="img\d.png" alt="" >
+                    <img class="off" src="img\caseon.png" alt="" >
+                    <p>Loisirs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ 
+
+    
+</body>
+</html>
